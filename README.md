@@ -40,7 +40,7 @@ lightdm.conf for configuring lightdm.
 class { '::lightdm':
   config => {
     'Seat:*' => {
-      'greeter-show-manual-login': 'true'
+      'greeter-show-manual-login' => 'true'
     }
 }
 ```
